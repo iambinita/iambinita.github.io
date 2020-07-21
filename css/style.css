@@ -208,7 +208,7 @@ figure {
         display: inline;
         list-style: none; }
         #colorlib-aside .colorlib-footer ul li a {
-          color: rgba(255, 255, 255, 0.3);
+          color: black;
           padding: 4px; }
           #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active, #colorlib-aside .colorlib-footer ul li a:focus {
             text-decoration: none;
@@ -220,6 +220,7 @@ figure {
   margin: 0 auto; }
 
 #colorlib-main {
+  filter: brightness(100%);
   width: calc(100% - 300px);
   float: right;
   -webkit-transition: 0.5s;
@@ -293,7 +294,8 @@ figure {
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           margin: 0;
           padding: 0;
-          color: black;
+          filter: brightness(120%);
+          color: rgb(211, 21, 94);
           font-family: "Playfair Display", Georgia, serif; }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
           margin-bottom: 20px;
@@ -327,20 +329,22 @@ figure {
           font-size: 12px;
           text-transform: uppercase;
           letter-spacing: 2px;
-          color: #000;
+          color: #fff;
           padding: 10px 15px !important;
           border: none;
           font-weight: 400; }
           #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
-            color: #000;
-            border: 1px solid #000;
+            color: #fff;
+            filter: brightness(150%);
+            border: 1px solid #fff;
+            font-weight: 900;
             background: transparent !important; }
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
               background: transparent !important;
               border: 1px solid #000 !important; }
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
-              width: 100%; } }
+              width: 70%; } }
 
 body.offcanvas {
   overflow-x: hidden; }
